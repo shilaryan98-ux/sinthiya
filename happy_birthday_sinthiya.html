@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#210d29">
+<title>Happy Birthday, Sinthiya ❤️</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@500;600;700&display=swap');
+:root{--pink:#ff8fb3;--rose:#ff4f87;--cream:#fff4ed;--gold:#ffd995}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#160b20;color:var(--cream);font-family:'DM Sans',sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(ellipse at 15% 15%,#63294d 0,transparent 42%),radial-gradient(ellipse at 85% 75%,#3a1b50 0,transparent 45%),linear-gradient(145deg,#160b20,#28112d 55%,#170c24)}
+.stars,.hearts{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:-1}
+.star{position:absolute;width:3px;height:3px;border-radius:50%;background:#fff4d6;opacity:.65;animation:twinkle 3s infinite ease-in-out}
+@keyframes twinkle{50%{opacity:.15;transform:scale(.55)}}
+nav{position:absolute;top:0;left:0;width:100%;padding:24px 7%;display:flex;justify-content:space-between;align-items:center;z-index:5}
+.logo{font-family:'Great Vibes',cursive;font-size:30px;color:var(--pink)}
+.nav-note{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#f4c8d7}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:120px 22px 80px;position:relative}
+.hero-inner{max-width:850px;animation:rise 1.2s both}
+@keyframes rise{from{opacity:0;transform:translateY(35px)}to{opacity:1;transform:translateY(0)}}
+.eyebrow{color:var(--gold);letter-spacing:5px;text-transform:uppercase;font-size:11px;font-weight:700}
+h1{font-family:'Playfair Display',serif;font-size:clamp(48px,9vw,100px);line-height:1.05;margin:24px 0 10px;font-weight:600}
+h1 span{display:block;font-family:'Great Vibes',cursive;color:var(--pink);font-size:1.12em;font-weight:400;text-shadow:0 0 35px #ff5b9a55}
+.subtitle{font-size:clamp(15px,2vw,19px);color:#f4dce6;line-height:1.8;max-width:580px;margin:22px auto 34px}
+.btn{border:0;border-radius:50px;padding:15px 28px;background:linear-gradient(110deg,#ff7da9,#ff4e87);color:white;font-weight:700;letter-spacing:.4px;cursor:pointer;box-shadow:0 12px 35px #ff4f8740;transition:.25s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 16px 40px #ff4f8760}
+.scroll{position:absolute;bottom:25px;left:50%;transform:translateX(-50%);font-size:10px;letter-spacing:3px;color:#d7aebe}
+.scroll:after{content:"↓";display:block;font-size:20px;margin-top:8px;color:var(--pink)}
+section{padding:95px 22px}
+.section-wrap{max-width:1000px;margin:auto}
+.section-label{text-align:center;color:var(--gold);font-size:11px;letter-spacing:4px;text-transform:uppercase}
+h2{font-family:'Playfair Display',serif;text-align:center;font-size:clamp(32px,5vw,52px);margin:14px 0 42px}
+h2 em{font-family:'Great Vibes',cursive;color:var(--pink);font-style:normal;font-size:1.25em;font-weight:400}
+.letter-card{max-width:760px;margin:auto;padding:clamp(28px,6vw,58px);border:1px solid #ffb3cb40;border-radius:25px;background:linear-gradient(135deg,#ffffff10,#ffffff06);box-shadow:0 25px 80px #08030d55;backdrop-filter:blur(12px);position:relative}
+.letter-card:before{content:"♥";position:absolute;top:-22px;left:50%;transform:translateX(-50%);background:#32172f;border:1px solid #ffb3cb66;border-radius:50%;width:45px;height:45px;display:grid;place-items:center;color:var(--pink);font-size:20px}
+.letter-card p{color:#f5dce7;line-height:2;font-size:16px;margin:0 0 18px}
+.signature{font-family:'Great Vibes',cursive;color:var(--pink);font-size:36px;text-align:right;margin-top:25px}
+.wishes{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.wish{padding:28px 22px;border-radius:20px;text-align:center;background:#ffffff0b;border:1px solid #ffb3cb30;transition:.3s}
+.wish:hover{transform:translateY(-7px);background:#ffffff12}
+.wish .icon{font-size:30px}.wish h3{font-family:'Playfair Display',serif;font-size:20px;margin:14px 0 8px}.wish p{color:#d9bdca;line-height:1.7;font-size:13px;margin:0}
+.final{text-align:center;padding-top:75px;padding-bottom:110px}
+.final h2{margin-bottom:15px}.final p{color:#e8cbd8;line-height:1.8}
+footer{text-align:center;padding:24px;color:#b994a7;font-size:12px;border-top:1px solid #ffffff12}
+.heart-float{position:absolute;bottom:-30px;color:#ff8fb3;animation:floatUp linear forwards;opacity:.8}
+@keyframes floatUp{to{transform:translateY(-110vh) rotate(25deg);opacity:0}}
+#surprise{display:none;margin:25px auto 0;max-width:550px;color:#ffe0eb;line-height:1.8;font-family:'Playfair Display',serif;font-size:20px;animation:rise .8s both}
+.proposal-card{max-width:760px;margin:75px auto 0;padding:clamp(28px,6vw,55px);text-align:center;border:1px solid #ffb3cb55;border-radius:26px;background:linear-gradient(145deg,#ff8fb319,#ffffff08);box-shadow:0 25px 80px #08030d55}.proposal-card h2{margin:18px 0 16px}.proposal-card p{max-width:570px;margin:0 auto 24px;color:#f1d5e1;line-height:1.9}.proposal-card h3{font-family:'Great Vibes',cursive;color:#ff9fbe;font-size:clamp(34px,6vw,54px);font-weight:400;margin:20px 0 26px}.proposal-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.btn.maybe{background:transparent;border:1px solid #ff9fbe;color:#ffdce8;box-shadow:none}#proposal-answer{margin-top:24px;color:#ffe1eb;font-family:'Playfair Display',serif;font-size:20px;line-height:1.7}
+@media(max-width:700px){.wishes{grid-template-columns:1fr}.nav-note{font-size:9px}.hero{min-height:92vh}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="stars" id="stars"></div><div class="hearts" id="hearts"></div>
+<nav><div class="logo">For Sinthiya ♡</div><div class="nav-note">A little page made with love</div></nav>
+<main>
+<header class="hero">
+ <div class="hero-inner">
+  <div class="eyebrow">Today is all about you ✨</div>
+  <h1>Happy Birthday <span>Sinthiya</span></h1>
+  <p class="subtitle">To the sweetest soul and the most beautiful part of someone's world — may your day sparkle as brightly as your smile.</p>
+  <button class="btn" onclick="document.getElementById('letter').scrollIntoView({behavior:'smooth'})">Open your birthday wish ♡</button>
+ </div>
+ <div class="scroll">SCROLL A LITTLE</div>
+</header>
+<section id="letter">
+ <div class="section-wrap">
+  <div class="section-label">A message from my heart</div><h2>Dear <em>my love</em>...</h2>
+  <div class="letter-card">
+   <p>Happy Birthday, my lovely Sinthiya! ❤️</p>
+   <p>I hope today brings you a thousand reasons to smile, endless moments of happiness, and all the love your heart can hold. You deserve the softest days, the brightest dreams, and every beautiful thing this world has to offer.</p>
+   <p>May every wish you make find its way to you. Keep shining, keep smiling, and never forget how special you are. If I could give you one thing today, it would be the ability to see yourself through my eyes — so you could understand just how wonderful you are.</p>
+   <p>Here's to more laughter, unforgettable memories, sweet little moments, and a year filled with magic. I hope this birthday is as lovely as you are.</p>
+   <div class="signature">With all my love ♡</div>
+  </div>
+ </div>
+</section>
+<section>
+ <div class="section-wrap">
+  <div class="section-label">Three little wishes</div><h2>For your <em>new chapter</em></h2>
+  <div class="wishes">
+   <article class="wish"><div class="icon">🌷</div><h3>Endless Happiness</h3><p>May your days be filled with laughter, warmth, and reasons to smile.</p></article>
+   <article class="wish"><div class="icon">✨</div><h3>Beautiful Dreams</h3><p>May every dream in your heart grow wings and find its way to you.</p></article>
+   <article class="wish"><div class="icon">💗</div><h3>All the Love</h3><p>May you always feel cherished, appreciated, and surrounded by love.</p></article>
+  </div>
+ </div>
+</section>
+<section class="final">
+ <div class="section-label">One last thing...</div>
+ <h2>Make a wish, <em>birthday girl</em> ✨</h2>
+ <p>Close your eyes, think of something beautiful, and tap below.</p>
+ <button class="btn" onclick="showSurprise()">A little birthday surprise 🎁</button>
+ <div id="surprise">You are one of a kind, Sinthiya. Never stop being your beautiful self. Happy Birthday once again, my love! ❤️🎂</div>
+ <div class="proposal-card">
+  <div class="section-label">A question from my heart</div>
+  <h2>One day, one forever... <em>you and me?</em></h2>
+  <p>Sinthiya, you make my world more beautiful. I want to keep choosing you, cheering for you, and making memories with you. So, here's the question I've been wanting to ask...</p>
+  <h3>Will you marry me, Sinthiya? 💍</h3>
+  <div class="proposal-actions">
+   <button class="btn" onclick="answerYes()">Yes, forever! ❤️</button>
+   <button class="btn maybe" onclick="answerMaybe()">Let me think 😊</button>
+  </div>
+  <div id="proposal-answer" aria-live="polite"></div>
+ </div>
+</section>
+</main>
+<footer>Made with ♡ especially for Sinthiya · Happy Birthday!</footer>
+<script>
+const stars=document.getElementById('stars');
+for(let i=0;i<75;i++){let s=document.createElement('i');s.className='star';s.style.left=Math.random()*100+'%';s.style.top=Math.random()*100+'%';s.style.animationDelay=Math.random()*4+'s';s.style.animationDuration=2+Math.random()*4+'s';stars.appendChild(s)}
+function floatHeart(){const h=document.createElement('span');h.className='heart-float';h.textContent=['♥','♡','✦','💗'][Math.floor(Math.random()*4)];h.style.left=Math.random()*100+'%';h.style.fontSize=12+Math.random()*20+'px';h.style.animationDuration=7+Math.random()*7+'s';document.getElementById('hearts').appendChild(h);setTimeout(()=>h.remove(),14500)}
+setInterval(floatHeart,650);
+function showSurprise(){document.getElementById('surprise').style.display='block';for(let i=0;i<28;i++)setTimeout(floatHeart,i*45)}
+function answerYes(){document.getElementById('proposal-answer').textContent='You just made this birthday even more magical. Here’s to a beautiful future together! ❤️💍';for(let i=0;i<45;i++)setTimeout(floatHeart,i*35)}
+function answerMaybe(){document.getElementById('proposal-answer').textContent='Take all the time you need, my love. Your happiness and your answer matter to me. 💗'}
+</script>
+</body>
+</html>
